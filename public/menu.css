@@ -1,1 +1,87 @@
+.header {
+  background-color: white;
+  display: flex;
+  height: 100px;
+}
+
+.logo {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 40px;
+  height:60px;
+  width: 130px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  background-color: rgb(121, 93, 93);
+  display: flex;
+  height: 45px;
+  flex-direction: row;
+  justify-content: left;
+}
+
+
+
+.play-button-outer {
+  margin-left: 950px;
+  margin-top: 16px;
+  border-radius: 150px;
+  width:60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, .25);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.play-button {
+  margin-left: 19px;
+  border-width: 0.9em 0 0.9em 1.7em;
+  border-style: solid;
+  border-color: transparent transparent transparent #135891;
+  opacity: .75; 
+}
+
+.play-button-outer:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.play-button-outer:hover .play-button {
+  opacity: 1;
+}
+
+
+.pause-button-outer {
+  margin-left: 18px;
+  margin-top: 16px;
+  border-radius: 150px;
+  width:60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, .25);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.pause-button {
+  height: 24px;
+  margin-left: 21px;
+  border-width: 0px 19px 0px 0px;
+  border-style:double;
+  border-color: #135891 #135891 #135891 #135891;
+  opacity: .75;  
+}
+
+.pause-button-outer:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.pause-button-outer:hover .pause-button {
+  opacity: 1;
+}
+
+
+
 
