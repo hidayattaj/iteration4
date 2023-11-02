@@ -1,0 +1,17 @@
+Node.js Setup:
+Created new folder iter4, First I initialized the project using "node init -y" and then installed nodejs, express, ejs using "npm" command.
+
+Server Configuration:
+First I imported the "express" module using require and then initialized it. Then I placed my external css files into public folder. I also separated my header menu and footer menu into separate folder using partials. Then I only needed to use ejs  <%- include %> to include those into my home page and producer page. I also saved my main ejs file into views folder and linked the server.js to get that page.
+
+EJS Syntax:
+I have used ejs tags in my file, also I used partials to reduce my code.
+
+Data Passing:
+I made a playlist consisting of songs in the server.js file and then I used that to pass it to the producer page where It is rendered. Also I used loop to display more variables in the page.
+
+EJS Views:
+Currently the working pages are the home page and producer page, my  partner is working on his pages, so we will be combining all the pages later. For now I implemented the homepage and producer page using ejs
+
+Functionality:
+I changed the link to another pages using the correct ejs syntax. The data which has been passed from the server is displaying in its correct places. The menu and the logo are displayed correctly.
